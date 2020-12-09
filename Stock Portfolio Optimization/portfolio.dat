@@ -1,0 +1,16 @@
+param n :=3;  # number of stocks
+param m :=4;  # number of outcomes
+
+param delta := 0;
+
+param p := 
+          1 .25
+          2 .25
+          3 .25
+          4 .25;
+
+param R:   1 2 3 := 
+           1        5.51   4.80   2.56    
+           2       -1.24   0.61   0.16
+           3        5.46   3.60  -1.64
+           4       -1.70  -1.30   0.30;
