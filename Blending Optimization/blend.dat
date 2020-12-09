@@ -1,0 +1,46 @@
+param n :=3;  # types of crude oil
+param m :=3;  # types of gasoline
+
+param gd := 
+          1 3000
+          2 4000
+          3 3000; #demand for g
+          
+param gs := 
+          1 70
+          2 60
+          3 50; #sale price for g
+
+param cavail := 
+          1 5000
+          2 5000
+          3 5000; #barrels of c available
+          
+param cc := 
+          1 45
+          2 35
+          3 25; #cost of c
+
+param gcost := 
+          1 4
+          2 4
+          3 4; #cost to produce g
+          
+param Oc := 
+          1 12
+          2 6
+          3 8; #Octane contents for c
+param Or := 
+          1 10
+          2 8
+          3 6; #Octane requirements for g
+param Sc := 
+          1 0.005
+          2 0.02
+          3 0.03; #Sulfur contents in c
+          
+param Sr := 
+          1 0.01
+          2 0.02
+          3 0.01; #Sulfur requirements in g
+          
