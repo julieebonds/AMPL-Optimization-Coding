@@ -1,0 +1,14 @@
+param n :=5;  # cities visited during roadtrip; trip legs + 1
+param t :=13; # tank gallon capacity
+param l := 1; # amount of extra gallons you want in each tank after arriving at destination
+
+param p := 
+          2 2.19
+          3 1.95
+          4 2.45; #price of gas
+          
+param f := 
+          1 11
+          2 6
+          3 9
+          4 10; #gallons necessary to complete each leg
